@@ -1,6 +1,6 @@
 import { movies } from "./modules/movies";
 import { popular } from "./modules/popular";
-import { series } from "./modules/series";
+/*import { series } from "./modules/series";*/
 
 import { getRecommendMovies, initEventListeners } from "./modules/search";
 

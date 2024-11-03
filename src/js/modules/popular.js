@@ -1,7 +1,7 @@
 export function popular() {
   const arrowRight = document.querySelector(".movie-arrow-right");
   const arrowLeft = document.querySelector(".movie-arrow-left");
-  const movieList = document.querySelector(".movie-movie-list");
+  const movieList = document.querySelector(".popular-movie-list");
 
   let offset = 0;
   let step;

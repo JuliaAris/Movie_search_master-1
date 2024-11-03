@@ -21,7 +21,7 @@
 .movie-movie-list {
   display: flex;
   align-items: center;
-  height: 60vh;
+  height: fit-content;
   transform: translateX(0);
   transition: all 1s ease-in-out;
 }
@@ -29,8 +29,8 @@
 .movie-movie-list-title {
   margin-left: 5vw;
   font-family: $main-font;
-  margin-bottom: 3vh;
-  margin-top: 3vh;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
   font-size: 36px;
   font-weight: 500;
 }
@@ -104,7 +104,6 @@
 .movie-arrow-right {
   font-size: 6vw;
   position: absolute;
-  top: 10rem;
   right: 0;
   color: lightgray;
   opacity: 0.5;
@@ -131,6 +130,11 @@
 
 .movie-movie-list-title.active {
   color: black;
+}
+
+.fa-chevron-right,
+.fa-chevron-left {
+  margin-top: 5rem;
 }
 
 /* Mobile layout */
